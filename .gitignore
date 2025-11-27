@@ -1,0 +1,25 @@
+# ---- Python / FastAPI (backend) ----
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# SQLite DB files (if you don't want to commit them)
+*.db
+*.sqlite3
+
+# ---- Node / React (frontend) ----
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ---- General ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
