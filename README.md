@@ -50,6 +50,43 @@ This system is designed for small to medium organizations that want a simple way
     - Employees tab is hidden
     - Can submit **self-evaluations** and update progress on their goals
 
+
+## 🔐 Default Login Accounts
+
+Use the following accounts to access the system with different roles:
+
+### 👑 **Admin Account**
+The Admin has full system access (employees, goals, reviews, user management).
+
+**Email:** admin@example.com  
+**Password:** Admin123!  
+**Role:** Admin
+
+---
+
+### 🧑‍💼 **Manager Account**
+The Manager can view/manage employees, goals, and reviews — but **cannot create/delete users**.
+
+**Email:** manager@example.com  
+**Password:** Manager123
+**Role:** Manager
+
+---
+
+### 👨‍💻 **Employee Account**
+The Employee can only view/edit their own data, update progress, and submit self-evaluations.
+
+**Email:** rohith.employee@example.com  
+**Password:** Rohith123
+**Role:** Employee
+
+---
+
+### 📝 Notes
+- **Admin** can create more user accounts from the admin panel.  
+- All passwords are **securely hashed** in the database.  
+- These accounts are for **demo and testing** purposes.
+
 ---
 
 ### 2. Employee Management
